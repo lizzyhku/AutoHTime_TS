@@ -4,7 +4,7 @@
 AutoTime adopts a hierarchical autoregressive framework. The prediction horizon is divided into segments, enabling the model to first generate coarse global predictions and then refine them step by step, effectively capturing both global and local dependencies.
 
 <p align="center">
-  <img src="autotime.pdf" alt="AutoTime Architecture" width="500"/>
+  <img src="autotime.png" alt="AutoTime Architecture" width="500"/>
 </p>
 
 ---
