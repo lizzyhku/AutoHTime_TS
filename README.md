@@ -10,8 +10,19 @@ AutoTime adopts a hierarchical autoregressive framework. The prediction horizon 
 ---
 
 ## How to run
+1. Install requirements. ```python3 -m pip install -r requirements.txt```
 
----
+2. Dataset Preparation. All the datasets are in ```./datasets```.
+
+3. Training. To run experiments on other datasets, just execute the corresponding script:
+```bash
+bash scripts/Electricity/AutoHFormer.sh
+bash scripts/Weather/AutoHFormer.sh
+bash scripts/PEMS04/AutoHFormer.sh
+```
+
+4. Results.
+All experiment logs are saved under `logs/LongForecasting/`
 
 ## Pseudo-code
 
