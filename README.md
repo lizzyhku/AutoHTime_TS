@@ -1,4 +1,4 @@
-# AutoHTime: Efficient Hierarchical Autoregressive Transformer for Time Series Prediction
+# AutoHFormer: Efficient Hierarchical Autoregressive Transformer for Time Series Prediction
 ## Overall Architecture
 
 AutoTime adopts a hierarchical autoregressive framework. The prediction horizon is divided into segments, enabling the model to first generate coarse global predictions and then refine them step by step, effectively capturing both global and local dependencies.
