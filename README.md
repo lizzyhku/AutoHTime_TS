@@ -14,7 +14,7 @@ AutoTime adopts a hierarchical autoregressive framework. The prediction horizon 
 The following pseudo-code illustrates the core workflow of AutoTime, including segment-level generation, windowed attention, and adaptive decay.
 
 <p align="center">
-  <img src="pseudo-code.png" alt="AutoHForme Algorithm" width="350"/>
+  <img src="pseudo-code.png" alt="AutoHForme Algorithm" width="600"/>
 </p>
 
 ---
