@@ -6,6 +6,7 @@ AutoTime adopts a hierarchical autoregressive framework. The prediction horizon 
 <p align="center">
   <img src="autotime.png" alt="AutoTime Architecture" width="500"/>
 </p>
+
 ---
 
 ## Pseudo-code
@@ -15,6 +16,7 @@ The following pseudo-code illustrates the core workflow of AutoTime, including s
 <p align="center">
   <img src="pseudo-code.png" alt="AutoHForme Algorithm" width="350"/>
 </p>
+
 ---
 
 ## Experiments
@@ -24,6 +26,7 @@ AutoTime achieves state-of-the-art results on several standard time series forec
 <p align="center">
   <img src="experiments.png" alt="AutoHFormer Main Results" width="700"/>
 </p>
+
 ---
 
 ## How to run
