@@ -6,21 +6,15 @@ AutoTime adopts a hierarchical autoregressive framework. The prediction horizon 
 <p align="center">
   <img src="autotime.png" alt="AutoTime Architecture" width="500"/>
 </p>
-
 ---
-
-
-4. Results.
-All experiment logs are saved under `logs/LongForecasting/`
 
 ## Pseudo-code
 
 The following pseudo-code illustrates the core workflow of AutoTime, including segment-level generation, windowed attention, and adaptive decay.
 
 <p align="center">
-  <img src="pseudo-code.png" alt="AutoTime Algorithm" width="350"/>
+  <img src="pseudo-code.png" alt="AutoHForme Algorithm" width="350"/>
 </p>
-
 ---
 
 ## Experiments
@@ -28,10 +22,10 @@ The following pseudo-code illustrates the core workflow of AutoTime, including s
 AutoTime achieves state-of-the-art results on several standard time series forecasting benchmarks, significantly outperforming existing methods.
 
 <p align="center">
-  <img src="experiments.png" alt="AutoTime Main Results" width="700"/>
+  <img src="experiments.png" alt="AutoHFormer Main Results" width="700"/>
 </p>
-
 ---
+
 ## How to run
 1. Install requirements. ```python3 -m pip install -r requirements.txt```
 
@@ -43,3 +37,6 @@ bash scripts/Electricity/AutoHFormer.sh
 bash scripts/Weather/AutoHFormer.sh
 bash scripts/PEMS04/AutoHFormer.sh
 ```
+
+4. Results.
+All experiment logs are saved under `logs/LongForecasting/`
