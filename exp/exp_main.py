@@ -11,7 +11,7 @@ from models import (
     Linear,
     NLinear,
     PatchTST,
-    Autotime,
+    AutoHFormer,
     TimeMixer
 )
 from utils.tools import EarlyStopping, adjust_learning_rate, visual, test_params_flop
@@ -48,7 +48,7 @@ class Exp_Main(Exp_Basic):
             "NLinear": NLinear,
             "Linear": Linear,
             "PatchTST": PatchTST,
-            "Autotime": Autotime,
+            "AutoHFormer": AutoHFormer,
             "TimeMixer": TimeMixer
         }
         model = model_dict[self.args.model].Model(self.args).float()
