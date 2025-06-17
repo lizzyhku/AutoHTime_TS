@@ -11,7 +11,6 @@ from models import (
     Linear,
     NLinear,
     PatchTST,
-    Powerformer,
     Autotime,
     TimeMixer
 )
@@ -49,7 +48,6 @@ class Exp_Main(Exp_Basic):
             "NLinear": NLinear,
             "Linear": Linear,
             "PatchTST": PatchTST,
-            "Powerformer": Powerformer,
             "Autotime": Autotime,
             "TimeMixer": TimeMixer
         }
