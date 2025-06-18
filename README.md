@@ -7,7 +7,7 @@ Modern time series forecasting demands architectures that simultaneously address
 AutoHFormer adopts a hierarchical autoregressive framework. The prediction horizon is divided into segments, enabling the model to first generate coarse global predictions and then refine them step by step, effectively capturing both global and local dependencies.
 
 <p align="center">
-  <img src="autotime.png" alt="AutoTime Architecture" width="1000"/>
+  <img src="AutoHFormer.png" alt="AutoHFormer Architecture" width="1000"/>
 </p>
 
 ## Pseudo-code
@@ -15,7 +15,7 @@ AutoHFormer adopts a hierarchical autoregressive framework. The prediction horiz
 The following pseudo-code illustrates the core workflow of AutoHFormer, including segment-level generation, windowed attention, and adaptive decay.
 
 <p align="center">
-  <img src="pseudo-code.png" alt="AutoHForme Algorithm" width="450"/>
+  <img src="pseudo-code.png" alt="AutoHFormer Algorithm" width="450"/>
 </p>
 
 ## Experiments
